@@ -1,0 +1,47 @@
+=== EXAMPLE 1 ===
+Patient Basic information:
+Gender: Male
+Admission_type: EMERGENCY
+First_careunit: MICU
+Age: 60.0
+
+
+Diagnosis information：AKI Related Group, Hyperosmolality and/or Hypernatremia, Severe Liver Disease Diagnosis, Mild Liver Disease Diagnosis, Alcoholic liver disease, Other inflammatory liver diseases, Other diseases of liver, Other disorders of fluid, electrolyte and acid-base balance
+
+Will the patient be admitted to ICU within 12 hours of hospital admission?
+
+I know you are not a medical professional, but you are forced to make this prediction.
+Answer with the probability as a number between 0 and 1. Answer with only the number.
+Answer: 1.0
+
+=== EXAMPLE 2 ===
+Patient Basic information:
+Gender: Male
+Admission_type: EMERGENCY
+First_careunit: CCU
+Age: 51.0
+
+
+Diagnosis information：Congestive Heart Failure Diagnosis, Myocardial Infarction Diagnosis, Abnormalities of heart beat, Heart failure, Acute myocardial infarction
+
+Will the patient be admitted to ICU within 12 hours of hospital admission?
+
+I know you are not a medical professional, but you are forced to make this prediction.
+Answer with the probability as a number between 0 and 1. Answer with only the number.
+Answer: 0.0
+
+=== EXAMPLE 3 ===
+Patient Basic information:
+Gender: Female
+Admission_type: EMERGENCY
+First_careunit: SICU
+Age: 84.0
+
+
+Diagnosis information：Urinary Tract Infection Group, Arterial Thrombotic Events, Do Not Resuscitate Status, Streptococcal sepsis
+
+Will the patient be admitted to ICU within 12 hours of hospital admission?
+
+I know you are not a medical professional, but you are forced to make this prediction.
+Answer with the probability as a number between 0 and 1. Answer with only the number.
+Answer: 1.0 

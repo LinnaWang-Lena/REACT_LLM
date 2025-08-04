@@ -1,0 +1,71 @@
+=== EXAMPLE 1 ===
+Patient Basic information:
+Gender: Male
+Admission_type: EMERGENCY
+First_careunit: MICU
+Age: 46.0
+
+
+Diagnosis information：Chronic Kidney Disease Group, Arterial Thrombotic Events, Renal Disease Diagnosis, AIDS Diagnosis, Diabetes without Complications, Type 2 diabetes mellitus
+
+Procedures information： Hemodialysis
+
+Medications administered during the first 24 hours after ICU admission： Med_Acetaminophen = 650.0
+
+Laboratory test results and vital signs recorded during the first 24 hours after ICU admission：
+TS_Heart Rate=76.0; TS_NSBP=158.0; TS_NDBP=80.0; TS_NMBP=104.0; TS_Respiratory_Rate=18.0; TS_Temperature_C=37.38945037841797; TS_O2 Flow=3.0; TS_SpO2 Desat Limit=85.0; TS_Admission_Weight=78.24; TS_SpO2=96.0; TS_Pain Level Response=0.0; TS_Pain=0.0; TS_Respiratory_Rate_Total=16.5; TS_Total_PEEP=5.15; TS_History of falling (within 3 mnths)=0.0; TS_Calculated Total CO2=25.0; TS_Base Excess=0.0; TS_pCO2=40.0; TS_pH=7.36; TS_Lactate=1.7; TS_PaO2=110.5; TS_Lactic Acid=1.7; TS_Self ADL=0.0; TS_ETOH=0.0; TS_ASBP=115.0; TS_ADBP=57.5; TS_MAP=76.0; TS_Arterial_PaCO2=40.0; TS_PH (Arterial)=7.38; TS_Arterial Base Excess=0.0; TS_Ionized_Calcium=1.13; TS_Arterial_TCO2=24.5; TS_Potassium (whole blood)=4.2; TS_Glucose_WholeBlood=134.0; TS_PEEP_Set=5.0; TS_Daily Weight=81.9; TS_Resp_Spontaneous=0.0; TS_Peak Insp. Pressure=20.0; TS_Mean Airway Pressure=9.0; TS_Visual / hearing deficit=0.0; TS_Mental status=0.0; TS_CAM-ICU MS Change=0.0; TS_Skin Care=0.0; TS_Back Care=0.0; TS_Plateau Pressure=18.0; TS_SaO2=97.0; TS_FiO2=50.0; TS_Hemoglobin=11.600000190734864; TS_Hematocrit (serum)=31.25; TS_WBC=9.3; TS_Chloride (serum)=105.0; TS_Creatinine=6.1; TS_Glucose (serum)=123.0; TS_Magnesium=2.5; TS_Sodium (serum)=138.5; TS_BUN=48.0; TS_Calcium non-ionized=8.350000000000001; TS_Phosphorous=5.099999904632568; TS_Anion_Gap=17.0; TS_Potassium (serum)=4.1; TS_HCO3 (serum)=23.5; TS_PLT=199.0; TS_PT=13.9; TS_PTT=30.8; TS_INR=1.25; TS_Hematocrit, Calculated=29.5; TS_Hematocrit=33.79999961853027; TS_HCO3=29.0; TS_Creatine Kinase, MB Isoenzyme=5.5; TS_Phosphate=5.1; TS_Calcium=9.300000095367432; TS_Chloride=95.0; TS_Glucose=127.0; TS_Potassium=4.5; TS_Sodium=136.0; TS_Alkaline Phosphatase=81.0; TS_AST=39.0; TS_LDH=270.5; TS_ALT=27.0; TS_Alkaline Phosphate=80.0; TS_Creatine_Kinase=152.0; TS_Bilirubin_total=0.65; TS_Troponin-T=0.04; TS_Albumin=3.1; TS_RDW=15.9; TS_RBC=3.2100000190734863; TS_INR(PT)=1.25; TS_MCV=104.0; TS_Basophils=0.2; TS_Eosinophils=0.5; TS_Monocytes=4.4; TS_Neutrophils=81.0; TS_MCHC=34.5; TS_MCH=34.9; TS_Lymphocytes=10.4; TS_Strength L Arm=5.0; TS_Strength L Leg=5.0; TS_Strength R Leg=5.0; TS_Strength R Arm=5.0; TS_Differential-Lymphs=10.25; TS_Potassium_WholeBlood=4.15; TS_Sodium_WholeBlood=136.0; TS_Pain_Presence=0.0; TS_Tidal Volume (observed)=475.5; TS_Inspiratory Time=0.9; TS_Specific Gravity=1.017; TS_Difficulty swallowing=0.0; TS_Differential-Neuts=80.9; TS_Fingerstick_Glucose=136.0; TS_Unintentional weight loss >10 lbs.=0.0; TS_Oxygen=50.0; TS_Bed Bath=1.0; TS_CAM-ICU Inattention=0.0; TS_PH (Venous)=7.37; TS_GCS_Total=15.0
+
+Will the patient develop sepsis during this hospitalization?
+
+I know you are not a medical professional, but you are forced to make this prediction.
+
+Answer with the probability as a number between 0 and 1. Answer with only the number.
+Answer: 0.0
+
+=== EXAMPLE 2 ===
+Patient Basic information:
+Gender: Male
+Admission_type: EMERGENCY
+First_careunit: MICU
+Age: 60.0
+
+
+Diagnosis information：AKI Related Group, Hyperosmolality and/or Hypernatremia, Severe Liver Disease Diagnosis, Mild Liver Disease Diagnosis, Alcoholic liver disease, Other inflammatory liver diseases, Other diseases of liver, Other disorders of fluid, electrolyte and acid-base balance
+
+Procedures: None
+
+Medications administered during the first 24 hours after ICU admission： Med_Ceftriaxone = 1.0, Med_Haloperidol = 7.5, Med_Lactulose = 60.0, Med_Lorazepam = 2.5, Med_Morphine Sulfate = 103.0, Med_Potassium Chloride = 140.0, Med_Sodium Bicarbonate = 1450.0
+
+Laboratory test results and vital signs recorded during the first 24 hours after ICU admission：
+TS_Heart Rate=96.0; TS_NSBP=135.0; TS_NDBP=71.0; TS_NMBP=93.0; TS_Respiratory_Rate=28.0; TS_Temperature_C=35.33330154418945; TS_O2 Flow=4.0; TS_SpO2 Desat Limit=85.0; TS_Admission_Weight=78.24; TS_SpO2=98.0; TS_Pain Level Response=0.0; TS_Pain=0.0; TS_Respiratory_Rate_Total=16.5; TS_Total_PEEP=5.15; TS_History of falling (within 3 mnths)=0.0; TS_Calculated Total CO2=15.0; TS_Base Excess=-10.0; TS_pCO2=26.0; TS_pH=7.34; TS_Lactate=1.7; TS_PaO2=86.0; TS_Lactic Acid=1.7; TS_Self ADL=0.0; TS_ETOH=0.0; TS_ASBP=115.0; TS_ADBP=57.5; TS_MAP=76.0; TS_Arterial_PaCO2=26.0; TS_PH (Arterial)=7.38; TS_Arterial Base Excess=-10.0; TS_Ionized_Calcium=1.13; TS_Arterial_TCO2=24.5; TS_Potassium (whole blood)=4.2; TS_Glucose_WholeBlood=134.0; TS_PEEP_Set=5.0; TS_Daily Weight=146.0; TS_Resp_Spontaneous=0.0; TS_Peak Insp. Pressure=20.0; TS_Mean Airway Pressure=9.0; TS_Visual / hearing deficit=0.0; TS_Mental status=0.0; TS_CAM-ICU MS Change=0.0; TS_Skin Care=0.0; TS_Back Care=0.0; TS_Plateau Pressure=18.0; TS_SaO2=97.0; TS_FiO2=50.0; TS_Hemoglobin=13.0; TS_Hematocrit (serum)=31.25; TS_WBC=21.0; TS_Chloride (serum)=105.0; TS_Creatinine=6.1; TS_Glucose (serum)=123.0; TS_Magnesium=2.4; TS_Sodium (serum)=138.5; TS_BUN=88.0; TS_Calcium non-ionized=8.350000000000001; TS_Phosphorous=6.900000095367432; TS_Anion_Gap=24.0; TS_Potassium (serum)=4.1; TS_HCO3 (serum)=23.5; TS_PLT=111.0; TS_PT=21.3; TS_PTT=47.4; TS_INR=2.1; TS_Hematocrit, Calculated=29.5; TS_Hematocrit=35.0; TS_HCO3=14.0; TS_Creatine Kinase, MB Isoenzyme=5.5; TS_Phosphate=6.9; TS_Calcium=9.5; TS_Chloride=108.0; TS_Glucose=121.0; TS_Potassium=3.4000000000000004; TS_Sodium=147.0; TS_Alkaline Phosphatase=236.0; TS_AST=54.0; TS_LDH=406.0; TS_ALT=36.0; TS_Alkaline Phosphate=80.0; TS_Creatine_Kinase=152.0; TS_Bilirubin_total=28.5; TS_Troponin-T=0.04; TS_Albumin=2.75; TS_RDW=16.75; TS_RBC=3.5349999833106995; TS_INR(PT)=2.1; TS_MCV=104.0; TS_Basophils=0.3; TS_Eosinophils=1.4; TS_Monocytes=3.3; TS_Neutrophils=89.0; TS_MCHC=35.4; TS_MCH=34.9; TS_Lymphocytes=5.9; TS_Strength L Arm=5.0; TS_Strength L Leg=5.0; TS_Strength R Leg=5.0; TS_Strength R Arm=5.0; TS_Differential-Lymphs=5.9; TS_Potassium_WholeBlood=4.15; TS_Sodium_WholeBlood=136.0; TS_Pain_Presence=0.0; TS_Tidal Volume (observed)=475.5; TS_Inspiratory Time=0.9; TS_Specific Gravity=1.017; TS_Difficulty swallowing=0.0; TS_Differential-Neuts=80.9; TS_Fingerstick_Glucose=131.0; TS_Unintentional weight loss >10 lbs.=0.0; TS_Oxygen=30.0; TS_Bed Bath=1.0; TS_CAM-ICU Inattention=0.0; TS_PH (Venous)=7.37; TS_GCS_Total=10.0
+
+Will the patient develop sepsis during this hospitalization?
+
+I know you are not a medical professional, but you are forced to make this prediction.
+
+Answer with the probability as a number between 0 and 1. Answer with only the number.
+Answer: 0.0
+
+=== EXAMPLE 3 ===
+Patient Basic information:
+Gender: Female
+Admission_type: EMERGENCY
+First_careunit: SICU
+Age: 84.0
+
+
+Diagnosis information：Urinary Tract Infection Group, Arterial Thrombotic Events, Do Not Resuscitate Status, Streptococcal sepsis
+
+Procedures: None
+
+Medications administered during the first 24 hours after ICU admission： Med_Ampicillin-Sulbactam = 3.0, Med_Calcium Gluconate = 9.0, Med_Fentanyl Citrate = 62.5, Med_Magnesium Sulfate = 9.0, Med_Piperacillin-Tazobactam = 4.5, Med_Potassium Chloride = 120.0
+
+Laboratory test results and vital signs recorded during the first 24 hours after ICU admission：
+TS_Heart Rate=95.0; TS_NSBP=133.0; TS_NDBP=71.0; TS_NMBP=85.5; TS_Respiratory_Rate=26.0; TS_Temperature_C=37.17; TS_O2 Flow=4.0; TS_SpO2 Desat Limit=85.0; TS_Admission_Weight=79.8725; TS_SpO2=97.0; TS_Pain Level Response=0.0; TS_Pain=0.0; TS_Respiratory_Rate_Total=16.5; TS_Total_PEEP=5.15; TS_History of falling (within 3 mnths)=25.0; TS_Calculated Total CO2=22.0; TS_Base Excess=-2.0; TS_pCO2=32.0; TS_pH=7.43; TS_Lactate=1.9; TS_PaO2=121.0; TS_Lactic Acid=1.9; TS_Self ADL=0.0; TS_ETOH=0.0; TS_ASBP=121.0; TS_ADBP=62.0; TS_MAP=84.5; TS_Arterial_PaCO2=32.0; TS_PH (Arterial)=7.43; TS_Arterial Base Excess=-2.0; TS_Ionized_Calcium=1.09; TS_Arterial_TCO2=22.0; TS_Potassium (whole blood)=4.2; TS_Glucose_WholeBlood=134.0; TS_PEEP_Set=5.0; TS_Daily Weight=81.9; TS_Resp_Spontaneous=0.0; TS_Peak Insp. Pressure=20.0; TS_Mean Airway Pressure=9.0; TS_Visual / hearing deficit=1.0; TS_Mental status=15.0; TS_CAM-ICU MS Change=0.0; TS_Skin Care=1.0; TS_Back Care=1.0; TS_Plateau Pressure=18.0; TS_SaO2=97.0; TS_FiO2=50.0; TS_Hemoglobin=10.85; TS_Hematocrit (serum)=31.15; TS_WBC=6.7; TS_Chloride (serum)=108.0; TS_Creatinine=1.1; TS_Glucose (serum)=110.0; TS_Magnesium=2.1; TS_Sodium (serum)=140.0; TS_BUN=20.0; TS_Calcium non-ionized=8.0; TS_Phosphorous=2.7; TS_Anion_Gap=12.0; TS_Potassium (serum)=3.5; TS_HCO3 (serum)=24.0; TS_PLT=127.5; TS_PT=13.9; TS_PTT=30.8; TS_INR=1.25; TS_Hematocrit, Calculated=29.5; TS_Hematocrit=31.15; TS_HCO3=24.0; TS_Creatine Kinase, MB Isoenzyme=2.0; TS_Phosphate=2.7; TS_Calcium=8.0; TS_Chloride=108.0; TS_Glucose=111.0; TS_Potassium=3.5; TS_Sodium=140.0; TS_Alkaline Phosphatase=87.0; TS_AST=29.5; TS_LDH=153.0; TS_ALT=19.0; TS_Alkaline Phosphate=87.0; TS_Creatine_Kinase=37.0; TS_Bilirubin_total=0.8; TS_Troponin-T=0.01; TS_Albumin=3.1500000000000004; TS_RDW=14.1; TS_RBC=3.38; TS_INR(PT)=1.25; TS_MCV=92.0; TS_Basophils=0.2; TS_Eosinophils=0.5; TS_Monocytes=4.4; TS_Neutrophils=81.0; TS_MCHC=34.7; TS_MCH=32.05; TS_Lymphocytes=10.4; TS_Strength L Arm=5.0; TS_Strength L Leg=5.0; TS_Strength R Leg=5.0; TS_Strength R Arm=5.0; TS_Differential-Lymphs=10.25; TS_Potassium_WholeBlood=4.15; TS_Sodium_WholeBlood=136.0; TS_Pain_Presence=1.0; TS_Tidal Volume (observed)=475.5; TS_Inspiratory Time=0.9; TS_Specific Gravity=1.017; TS_Difficulty swallowing=0.0; TS_Differential-Neuts=80.9; TS_Fingerstick_Glucose=103.5; TS_Unintentional weight loss >10 lbs.=0.0; TS_Oxygen=50.0; TS_Bed Bath=1.0; TS_CAM-ICU Inattention=0.0; TS_PH (Venous)=7.37; TS_GCS_Total=13.0
+
+Will the patient develop sepsis during this hospitalization?
+
+I know you are not a medical professional, but you are forced to make this prediction.
+
+Answer with the probability as a number between 0 and 1. Answer with only the number.
+Answer: 1.0 

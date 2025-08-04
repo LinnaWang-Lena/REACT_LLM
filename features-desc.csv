@@ -1,0 +1,538 @@
+SUBJECT_ID,Unique Patient ID
+HADM_ID,Hospital Admission ID
+ICUSTAY_ID,ICU Stay ID
+ADMITTIME,Hospital Admission Time
+INTIME,ICU Admission Time
+DISCHTIME,Hospital Discharge Time
+OUTTIME,ICU Discharge Time
+GENDER,Gender
+DOB,Date of Birth
+DOD,Date of Death
+DEATHTIME,Time of Death
+ADMISSION_TYPE,Admission Type
+ADMISSION_LOCATION,Admission Source
+RACE,Race
+FIRST_CAREUNIT,First Care Unit
+LAST_CAREUNIT,Last Care Unit
+LOS,Length of Stay (days)
+AGE,Age
+FIRST_HADM,First Hospital Admission Flag
+FIRST_ICU,First ICU Admission Flag
+DIEINHOSPITAL,In-hospital Death
+DIEINICU,Death in ICU
+Readmission_30,30-day Readmission
+Readmission_60,60-day Readmission
+HOURS_FROM_ADMIT,Hours After Admission
+ICU_within_12hr_of_admit,ICU Admission Within 12 Hours
+Multiple_ICUs,Multiple ICU Stays
+Diag_9_2113,Benign neoplasm of colon
+Diag_9_39891,Rheumatic heart failure (congestive)
+Diag_9_43310,Occlusion and stenosis of carotid artery without mention of cerebral infarction
+Diag_9_5570,Acute vascular insufficiency of intestine
+Diag_9_64891,"Other current conditions classifiable elsewhere of mother, delivered, with or without mention of antepartum condition"
+Diag_9_66411,"Second-degree perineal laceration, delivered, with or without mention of antepartum condition"
+Diag_9_6930,Dermatitis due to drugs and medicines taken internally
+Diag_9_7464,Congenital insufficiency of aortic valve
+Diag_9_7470,Patent ductus arteriosus
+Diag_9_86121,Contusion of lung without mention of open wound into thorax
+Diag_9_99702,Iatrogenic cerebrovascular infarction or hemorrhage
+Diag_9_9971,"Cardiac complications, not elsewhere classified"
+Diag_9_9973,Surg complic-respir syst
+Diag_9_99731,Ventilator associated pneumonia
+Diag_9_9974,"Digestive system complications, not elsewhere classified"
+Diag_9_9975,"Urinary complications, not elsewhere classified"
+Diag_10_A04,Other bacterial intestinal infections
+Diag_10_A40,Streptococcal sepsis
+Diag_10_B15,Acute hepatitis A
+Diag_10_B20,Human immunodeficiency virus [HIV] disease
+Diag_10_B37,Candidiasis
+Diag_10_B95,"Streptococcus, Staphylococcus, and Enterococcus as the cause of diseases classified elsewhere"
+Diag_10_C22,Malignant neoplasm of liver and intrahepatic bile ducts
+Diag_10_C33,Malignant neoplasm of trachea
+Diag_10_C61,Malignant neoplasm of prostate
+Diag_10_C78,Secondary malignant neoplasm of respiratory and digestive organs
+Diag_10_C79,Secondary malignant neoplasm of other and unspecified sites
+Diag_10_C82,Follicular lymphoma
+Diag_10_D50,Iron deficiency anemia
+Diag_10_D61,Other aplastic anemias and other bone marrow failure syndromes
+Diag_10_D64,Other anemias
+Diag_10_D66,Hereditary factor VIII deficiency
+Diag_10_D69,Purpura and other hemorrhagic conditions
+Diag_10_D70,Neutropenia
+Diag_10_E11,Type 2 diabetes mellitus
+Diag_10_E22,Hyperfunction of pituitary gland
+Diag_10_E28,Ovarian dysfunction
+Diag_10_E43,Unspecified severe protein-calorie malnutrition
+Diag_10_E44,Protein-calorie malnutrition of moderate and mild degree
+Diag_10_E66,Overweight and obesity
+Diag_10_E78,Disorders of lipoprotein metabolism and other lipidemias
+Diag_10_E83,Disorders of mineral metabolism
+Diag_9_E8490,Home accidents
+Diag_9_E8497,Accidents occurring in residential institution
+Diag_9_E8498,Accidents occurring in other specified places
+Diag_9_E8499,Accidents occurring in unspecified place
+Diag_10_E87,"Other disorders of fluid, electrolyte and acid-base balance"
+Diag_9_E8780,"Surgical operation with transplant of whole organ causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation"
+Diag_9_E8781,"Surgical operation with implant of artificial internal device causing abnormal patient reaction, or later complication,without mention of misadventure at time of operation"
+Diag_9_E8782,"Surgical operation with anastomosis, bypass, or graft, with natural or artificial tissues used as implant causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation"
+Diag_9_E8786,"Removal of other organ (partial) (total) causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation"
+Diag_9_E8788,"Other specified surgical operations and procedures causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation"
+Diag_9_E8790,"Cardiac catheterization as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+Diag_9_E8798,"Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+Diag_9_E8859,"Fall from other slipping, tripping, or stumbling"
+Diag_10_E89,"Postprocedural endocrine and metabolic complications and disorders, not elsewhere classified"
+Diag_9_E9320,Adrenal cortical steroids causing adverse effects in therapeutic use
+Diag_9_E9331,Antineoplastic and immunosuppressive drugs causing adverse effects in therapeutic use
+Diag_9_E9342,Anticoagulants causing adverse effects in therapeutic use
+Diag_9_E9478,Other drugs and medicinal substances causing adverse effects in therapeutic use
+Diag_10_F04,Amnestic disorder due to known physiological condition
+Diag_10_F05,Delirium due to known physiological condition
+Diag_10_F10,Alcohol related disorders
+Diag_10_F19,Other psychoactive substance related disorders
+Diag_10_F30,Manic episode
+Diag_10_F32,Depressive episode
+Diag_10_F41,Other anxiety disorders
+Diag_10_F43,"Reaction to severe stress, and adjustment disorders"
+Diag_10_G20,Parkinson's disease
+Diag_10_G30,Alzheimer's disease
+Diag_10_G35,Multiple sclerosis
+Diag_10_G40,Epilepsy and recurrent seizures
+Diag_10_G43,Migraine
+Diag_10_G44,Other headache syndromes
+Diag_10_G47,Sleep disorders
+Diag_10_G60,Hereditary and idiopathic neuropathy
+Diag_10_G61,Inflammatory polyneuropathy
+Diag_10_G81,Hemiplegia and hemiparesis
+Diag_10_G89,"Pain, not elsewhere classified"
+Diag_10_G93,Other disorders of brain
+Diag_10_G97,"Intraoperative and postprocedural complications and disorders of nervous system, not elsewhere classified"
+Diag_10_H35,Other retinal disorders
+Diag_10_H40,Glaucoma
+Diag_10_I07,Rheumatic tricuspid valve diseases
+Diag_10_I08,Multiple valve diseases
+Diag_10_I10,Essential (primary) hypertension
+Diag_10_I12,Hypertensive chronic kidney disease
+Diag_10_I20,Angina pectoris
+Diag_10_I21,Acute myocardial infarction
+Diag_10_I24,Other acute ischemic heart diseases
+Diag_10_I25,Chronic ischemic heart disease
+Diag_10_I26,Pulmonary embolism
+Diag_10_I27,Other pulmonary heart diseases
+Diag_10_I31,Other diseases of pericardium
+Diag_10_I33,Acute and subacute endocarditis
+Diag_10_I34,Nonrheumatic mitral valve disorders
+Diag_10_I42,Cardiomyopathy
+Diag_10_I44,Atrioventricular and left bundle-branch block
+Diag_10_I47,Paroxysmal tachycardia
+Diag_10_I50,Heart failure
+Diag_10_I60,Nontraumatic subarachnoid hemorrhage
+Diag_10_I61,Nontraumatic intracerebral hemorrhage
+Diag_10_I62,Other and unspecified nontraumatic intracranial hemorrhage
+Diag_10_I66,"Occlusion and stenosis of cerebral arteries, not resulting in cerebral infarction"
+Diag_10_I67,Other cerebrovascular diseases
+Diag_10_I69,Sequelae of cerebrovascular disease
+Diag_10_I70,Atherosclerosis
+Diag_10_I71,Aortic aneurysm and dissection
+Diag_10_I73,Other peripheral vascular diseases
+Diag_10_I82,Other venous embolism and thrombosis
+Diag_10_I85,Esophageal varices
+Diag_10_I95,Hypotension
+Diag_10_J15,"Bacterial pneumonia, not elsewhere classified"
+Diag_10_J41,Simple and mucopurulent chronic bronchitis
+Diag_10_J43,Emphysema
+Diag_10_J44,Other chronic obstructive pulmonary disease
+Diag_10_J45,Asthma
+Diag_10_J69,Pneumonitis due to solids and liquids
+Diag_10_J84,Other interstitial pulmonary diseases
+Diag_10_J93,Pneumothorax and air leak
+Diag_10_J95,"Intraoperative and postprocedural complications and disorders of respiratory system, not elsewhere classified"
+Diag_10_J98,Other respiratory disorders
+Diag_10_K22,Other diseases of esophagus
+Diag_10_K29,Gastritis and duodenitis
+Diag_10_K31,Other diseases of stomach and duodenum
+Diag_10_K41,Femoral hernia
+Diag_10_K56,Paralytic ileus and intestinal obstruction without hernia
+Diag_10_K57,Diverticular disease of intestine
+Diag_10_K59,Other functional intestinal disorders
+Diag_10_K66,Other disorders of peritoneum
+Diag_10_K70,Alcoholic liver disease
+Diag_10_K75,Other inflammatory liver diseases
+Diag_10_K76,Other diseases of liver
+Diag_10_K80,Cholelithiasis
+Diag_10_K85,Acute pancreatitis
+Diag_10_K91,"Intraoperative and postprocedural complications and disorders of digestive system, not elsewhere classified"
+Diag_10_K92,Other diseases of digestive system
+Diag_10_L03,Cellulitis and acute lymphangitis
+Diag_10_L89,Pressure ulcer
+Diag_10_M06,Other rheumatoid arthritis
+Diag_10_M10,Gout
+Diag_10_M15,Polyosteoarthritis
+Diag_10_M32,Systemic lupus erythematosus (SLE)
+Diag_10_M48,Other spondylopathies
+Diag_10_M60,Myositis
+Diag_10_M79,"Other and unspecified soft tissue disorders, not elsewhere classified"
+Diag_10_M81,Osteoporosis without current pathological fracture
+Diag_10_N05,Unspecified nephritic syndrome
+Diag_10_N13,Obstructive and reflux uropathy
+Diag_10_N23,Unspecified renal colic
+Diag_10_N28,"Other disorders of kidney and ureter, not elsewhere classified"
+Diag_10_N39,Other disorders of urinary system
+Diag_10_N72,Inflammatory disease of cervix uteri
+Diag_10_N92,"Excessive, frequent and irregular menstruation"
+Diag_10_O75,"Other complications of labor and delivery, not elsewhere classified"
+Diag_10_Q20,Congenital malformations of cardiac chambers and connections
+Diag_10_R00,Abnormalities of heart beat
+Diag_10_R06,Abnormalities of breathing
+Diag_10_R09,Other symptoms and signs involving the circulatory and respiratory system
+Diag_10_R10,Abdominal and pelvic pain
+Diag_10_R19,Other symptoms and signs involving the digestive system and abdomen
+Diag_10_R45,Symptoms and signs involving emotional state
+Diag_10_R58,"Hemorrhage, not elsewhere classified"
+Diag_10_R63,Symptoms and signs concerning food and fluid intake
+Diag_10_R68,Other general symptoms and signs
+Diag_10_R69,"Illness, unspecified"
+Diag_10_R78,"Findings of drugs and other substances, not normally found in blood"
+Diag_10_S01,Open wound of head
+Diag_10_S06,Intracranial injury
+Diag_10_S12,Fracture of cervical vertebra and other parts of neck
+Diag_10_S27,Injury of other and unspecified intrathoracic organs
+Diag_10_T78,"Adverse effects, not elsewhere classified"
+Diag_10_T81,"Complications of procedures, not elsewhere classified"
+Diag_10_T82,"Complications of cardiac and vascular prosthetic devices, implants and grafts"
+Diag_9_V1251,Personal history of venous thrombosis and embolism
+Diag_9_V1259,Personal history of other diseases of circulatory system
+Diag_9_V420,Kidney replaced by transplant
+Diag_9_V422,Heart valve replaced by transplant
+Diag_9_V433,Heart valve replaced by other means
+Diag_9_V4365,Knee joint replacement
+Diag_9_V440,Tracheostomy status
+Diag_9_V441,Gastrostomy status
+Diag_9_V462,"Other dependence on machines, supplemental oxygen"
+Diag_9_V6284,Suicidal ideation
+Diag_10_Z00,"Encounter for general examination without complaint, suspected or reported diagnosis"
+Diag_10_Z16,Resistance to antimicrobial drugs
+Diag_10_Z21,Asymptomatic human immunodeficiency virus [HIV] infection status
+Diag_10_Z23,Encounter for immunization
+Diag_10_Z51,Encounter for other aftercare and medical care
+Diag_10_Z80,Family history of primary malignant neoplasm
+Diag_10_Z81,Family history of mental and behavioral disorders
+Diag_10_Z85,Personal history of malignant neoplasm
+Diag_10_Z87,Personal history of other diseases and conditions
+Diag_10_Z91,"Personal risk factors, not elsewhere classified"
+Diag_10_Z95,Presence of cardiac and vascular implants and grafts
+Group_AKI,AKI Related Group
+Group_CKD,Chronic Kidney Disease Group
+Group_PCOS,Polycystic Ovary Syndrome Group
+Group_Neoplasm_ovary,Ovarian Neoplasm Group
+Group_Endometriosis,Endometriosis Group
+Group_Leiomyoma,Uterine Leiomyoma Group
+Group_Va_uti,Urinary Tract Infection Group
+Diag_Personal history of antineoplastic chemotherapy,History of Antineoplastic Chemotherapy
+Diag_Personal history of pulmonary embolism,History of Pulmonary Embolism
+"Diag_Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits",History of TIA/Stroke without Residual Deficits
+"Diag_Pneumonia, unspecified organism",Pneumonia (Unspecified Organism)
+Pro_0014,Injection or infusion of oxazolidinone class of antibiotics
+Pro_0017,Infusion of vasopressor agent
+Pro_0040,Procedure on single vessel
+Pro_0045,Insertion of one vascular stent
+Pro_0066,Percutaneous transluminal coronary angioplasty [PTCA]
+Pro_0159,Other excision or destruction of lesion or tissue of brain
+Pro_0331,Spinal tap
+Pro_0741,Incision of adrenal gland
+Pro_311,Temporary tracheostomy
+Pro_3322,Fiber-optic bronchoscopy
+Pro_3323,Other bronchoscopy
+Pro_3324,Closed [endoscopic] biopsy of bronchus
+Pro_3404,Insertion of intercostal catheter for drainage
+Pro_3491,Thoracentesis
+Pro_3521,Open and other replacement of aortic valve with tissue graft
+Pro_3522,Open and other replacement of aortic valve
+Pro_3606,Insertion of non-drug-eluting coronary artery stent(s)
+Pro_3607,Insertion of drug-eluting coronary artery stent(s)
+Pro_3611,(Aorto)coronary bypass of one coronary artery
+Pro_3612,(Aorto)coronary bypass of two coronary arteries
+Pro_3613,(Aorto)coronary bypass of three coronary arteries
+Pro_3615,Single internal mammary-coronary artery bypass
+Pro_3721,Right heart cardiac catheterization
+Pro_3722,Left heart cardiac catheterization
+Pro_3723,Combined right and left heart cardiac catheterization
+Pro_3761,Implant of pulsation balloon
+Pro_3845,"Resection of vessel with replacement, thoracic vessels"
+Pro_387,Interruption of the vena cava
+Pro_3891,Arterial catheterization
+Pro_3893,"Venous catheterization, not elsewhere classified"
+Pro_3895,Venous catheterization for renal dialysis
+Pro_3897,Central venous catheter placement with guidance
+Pro_3899,Other puncture of vein
+Pro_3950,Angioplasty of other non-coronary vessel(s)
+Pro_3961,Extracorporeal circulation auxiliary to open heart surgery
+Pro_3995,Hemodialysis
+Pro_4311,Percutaneous [endoscopic] gastrostomy [PEG]
+Pro_4443,Endoscopic control of gastric or duodenal bleeding
+Pro_4513,Other endoscopy of small intestine
+Pro_4516,Esophagogastroduodenoscopy [EGD] with closed biopsy
+Pro_4523,Colonoscopy
+Pro_5185,Endoscopic sphincterotomy and papillotomy
+Pro_5459,Other lysis of peritoneal adhesions
+Pro_5491,Percutaneous abdominal drainage
+Pro_7309,Other artificial rupture of membranes
+Pro_734,Medical induction of labor
+Pro_7359,Other manually assisted delivery
+Pro_7569,Repair of other current obstetric laceration
+Pro_8051,Excision of intervertebral disc
+Pro_8162,Fusion or refusion of 2-3 vertebrae
+Pro_8622,"Excisional debridement of wound, infection, or burn"
+Pro_8659,Closure of skin and subcutaneous tissue of other sites
+Pro_8744,"Routine chest x-ray, so described"
+Pro_8841,Arteriography of cerebral arteries
+Pro_8842,Aortography
+Pro_8847,Arteriography of other intra-abdominal arteries
+Pro_8848,Arteriography of femoral and other lower extremity arteries
+Pro_8852,Angiocardiography of right heart structures
+Pro_8853,Angiocardiography of left heart structures
+Pro_8855,Coronary arteriography using a single catheter
+Pro_8856,Coronary arteriography using two catheters
+Pro_8872,Diagnostic ultrasound of heart
+Pro_8938,Other nonoperative respiratory measurements
+Pro_8964,Pulmonary artery wedge monitoring
+Pro_9390,Non-invasive mechanical ventilation
+Pro_9604,Insertion of endotracheal tube
+Pro_9605,Other intubation of respiratory tract
+Pro_9607,Insertion of other (naso-)gastric tube
+Pro_966,Enteral infusion of concentrated nutritional substances
+Pro_9671,Continuous invasive mechanical ventilation for less than 96 consecutive hours
+Pro_9672,Continuous invasive mechanical ventilation for 96 consecutive hours or more
+Pro_9904,Transfusion of packed cells
+Pro_9905,Transfusion of platelets
+Pro_9907,Transfusion of other serum
+Pro_9910,Injection or infusion of thrombolytic agent
+Pro_9915,Parenteral infusion of concentrated nutritional substances
+Pro_9920,Injection or infusion of platelet inhibitor
+Pro_9925,Injection or infusion of cancer chemotherapeutic substance
+Pro_9955,Prophylactic administration of vaccine against other diseases
+Pro_9960,"Cardiopulmonary resuscitation, not otherwise specified"
+Pro_9962,Other electric countershock of heart
+Med_Acetaminophen,"Acetaminophen Usage"
+Med_Amiodarone,"Amiodarone Usage"
+Med_Ampicillin-Sulbactam,"Ampicillin-Sulbactam Usage"
+Med_Aspirin,"Aspirin Usage"
+Med_Atorvastatin,"Atorvastatin Usage"
+Med_Azithromycin,Azithromycin Usage 
+Med_Calcium Gluconate,Calcium Gluconate Usage 
+Med_Cefepime,Cefepime Usage 
+Med_Ceftazidime,Ceftazidime Usage 
+Med_Ceftriaxone,Ceftriaxone Usage 
+Med_Ciprofloxacin,Ciprofloxacin Usage 
+Med_Clindamycin,Clindamycin Usage 
+Med_Dexamethasone,Dexamethasone Usage 
+Med_Dexmedetomidine,Dexmedetomidine Usage 
+Med_Diltiazem,Diltiazem Usage 
+Med_Famotidine,Famotidine Usage 
+Med_Fentanyl Citrate,Fentanyl Citrate Usage 
+Med_Folic Acid,Folic Acid Usage 
+Med_Furosemide,Furosemide Usage 
+Med_Gabapentin,Gabapentin Usage 
+Med_Glucagon,Glucagon Usage 
+Med_Haloperidol,Haloperidol Usage 
+Med_Heparin,Heparin Usage 
+Med_Hydromorphone,Hydromorphone Usage 
+Med_Insulin,Insulin Usage 
+Med_Lactulose,Lactulose Usage 
+Med_Levetiracetam,Levetiracetam Usage 
+Med_Levofloxacin,Levofloxacin Usage 
+Med_Linezolid,Linezolid Usage 
+Med_Lorazepam,Lorazepam Usage 
+Med_Magnesium Sulfate,Magnesium Sulfate Usage 
+Med_Meropenem,Meropenem Usage 
+Med_Metoclopramide,Metoclopramide Usage 
+Med_Metoprolol,Metoprolol Usage 
+Med_Metronidazole,Metronidazole Usage 
+Med_Midazolam,Midazolam Usage 
+Med_Morphine Sulfate,Morphine Sulfate Usage 
+Med_Nitroglycerin,Nitroglycerin Usage 
+Med_Norepinephrine,Norepinephrine Usage 
+Med_Omeprazole,Omeprazole Usage 
+Med_Ondansetron,Ondansetron Usage 
+Med_Oxycodone,Oxycodone Usage 
+Med_Pantoprazole,Pantoprazole Usage 
+Med_Phenylephrine,Phenylephrine Usage 
+Med_Piperacillin-Tazobactam,Piperacillin-Tazobactam Usage 
+Med_Potassium Chloride,Potassium Chloride Usage 
+Med_Prednisone,Prednisone Usage 
+Med_Propofol,Propofol Usage 
+Med_Ranitidine,Ranitidine Usage 
+Med_Simvastatin,Simvastatin Usage 
+Med_Sodium Bicarbonate,Sodium Bicarbonate Usage 
+Med_Tacrolimus,Tacrolimus Usage 
+Med_Thiamine,Thiamine Usage 
+Med_Vancomycin,Vancomycin Usage 
+Med_Warfarin,Warfarin Usage 
+Diag_10_A419,"Sepsis, unspecified organism"
+Diag_10_R6521,Severe sepsis with septic shock
+Diag_10_Z794,Long term (current) use of insulin
+Diag_10_D62,Acute posthemorrhagic anemia
+TS_Heart Rate,Heart Rate
+TS_NSBP,Systolic Blood Pressure
+TS_NDBP,Diastolic Blood Pressure
+TS_NMBP,Mean Blood Pressure
+TS_Respiratory_Rate,Respiratory Rate
+TS_GCS_EyeOpening,GCS Eye Opening Response
+TS_Temperature_C,Temperature (Celsius)
+TS_O2 Flow,Oxygen Flow Rate
+TS_GCS_VerbalResponse,GCS Verbal Response
+TS_GCS_MotorResponse,GCS Motor Response
+TS_SpO2 Desat Limit,SpO2 Desaturation Limit
+TS_Admission_Weight,Admission Weight
+TS_SpO2,Blood Oxygen Saturation
+TS_Pain Level Response,Pain Level
+TS_Pain,Pain
+TS_Respiratory_Rate_Total,Respiratory Rate
+TS_Total_PEEP,Total PEEP
+TS_History of falling (within 3 mnths),History of Falling (within 3 months)
+TS_Calculated Total CO2,Calculated Total CO2
+TS_Base Excess,Base Excess
+TS_pCO2,CO2 Partial Pressure
+TS_pH,pH
+TS_Lactate,Lactate
+TS_PaO2,Arterial Oxygen Partial Pressure
+TS_Lactic Acid,Lactate
+TS_Self ADL,Self Activities of Daily Living
+TS_ETOH,Alcohol
+TS_ASBP,Systolic Blood Pressure
+TS_ADBP,Diastolic Blood Pressure
+TS_MAP,Mean Arterial Pressure
+TS_Arterial_PaCO2,Arterial CO2 Partial Pressure
+TS_PH (Arterial),Arterial pH
+TS_Arterial Base Excess,Arterial Base Excess
+TS_Ionized_Calcium,Ionized Calcium
+TS_Arterial_TCO2,Arterial Total CO2
+TS_Potassium (whole blood),Blood Potassium
+TS_Glucose_WholeBlood,Whole Blood Glucose
+TS_PEEP_Set,PEEP Set
+TS_Daily Weight,Daily Weight
+TS_Resp_Spontaneous,Spontaneous Respiration
+TS_Peak Insp. Pressure,Peak Inspiratory Pressure
+TS_Mean Airway Pressure,Mean Airway Pressure
+TS_Visual / hearing deficit,Visual/Hearing Deficit
+TS_Mental status,Mental Status
+TS_CAM-ICU MS Change,CAM-ICU Mental Status Change
+TS_Skin Care,Skin Care
+TS_Back Care,Back Care
+TS_Plateau Pressure,Plateau Pressure
+TS_SaO2,Blood Oxygen Saturation
+TS_FiO2,Fraction of Inspired Oxygen
+TS_Hemoglobin,Hemoglobin
+TS_Hematocrit (serum),Hematocrit
+TS_WBC,White Blood Cell Count
+TS_Chloride (serum),Chloride
+TS_Creatinine,Creatinine
+TS_Glucose (serum),Glucose
+TS_Magnesium,Magnesium
+TS_Sodium (serum),Sodium
+TS_BUN,Blood Urea Nitrogen
+TS_Calcium non-ionized,Non-ionized Calcium
+TS_Phosphorous,Phosphorus
+TS_Anion_Gap,Anion Gap
+TS_Potassium (serum),Blood Potassium
+TS_HCO3 (serum),Bicarbonate
+TS_PLT,Platelet Count
+TS_PT,Prothrombin Time
+TS_PTT,Partial Thromboplastin Time
+TS_INR,International Normalized Ratio
+"TS_Hematocrit, Calculated",Calculated Hematocrit
+TS_Hematocrit,Hematocrit
+TS_HCO3,Bicarbonate
+"TS_Creatine Kinase, MB Isoenzyme",Creatine Kinase-MB
+TS_Phosphate,Phosphorus
+TS_Calcium,Calcium
+TS_Chloride,Chloride
+TS_Glucose,Glucose
+TS_Potassium,Potassium
+TS_Sodium,Sodium
+TS_Alkaline Phosphatase,Alkaline Phosphatase
+TS_AST,Aspartate Aminotransferase
+TS_LDH,Lactate Dehydrogenase
+TS_ALT,Alanine Aminotransferase
+TS_Alkaline Phosphate,Alkaline Phosphatase
+TS_Creatine_Kinase,Creatine Kinase
+TS_Bilirubin_total,Total Bilirubin
+TS_Troponin-T,Troponin-T
+TS_Albumin,Albumin
+TS_RDW,Red Cell Distribution Width
+TS_RBC,Red Blood Cell Count
+TS_INR(PT),International Normalized Ratio
+TS_MCV,Mean Corpuscular Volume
+TS_Basophils,Basophils
+TS_Eosinophils,Eosinophils
+TS_Monocytes,Monocytes
+TS_Neutrophils,Neutrophils
+TS_MCHC,Mean Corpuscular Hemoglobin Concentration
+TS_MCH,Mean Corpuscular Hemoglobin
+TS_Lymphocytes,Lymphocytes
+TS_Strength L Arm,Left Arm Strength
+TS_Strength L Leg,Left Leg Strength
+TS_Strength R Leg,Right Leg Strength
+TS_Strength R Arm,Right Arm Strength
+TS_Differential-Lymphs,Lymphocyte Differential
+TS_Potassium_WholeBlood,Whole Blood Potassium
+TS_Sodium_WholeBlood,Whole Blood Sodium
+TS_Pain_Presence,Pain Presence
+TS_Dialysis patient,Dialysis Patient
+TS_Tidal Volume (observed),Tidal Volume (Observed)
+TS_Inspiratory Time,Inspiratory Time
+TS_Specific Gravity,Specific Gravity
+TS_Difficulty swallowing,Difficulty Swallowing
+TS_Differential-Neuts,Neutrophil Differential
+TS_Fingerstick_Glucose,Fingerstick Glucose
+TS_Unintentional weight loss >10 lbs.,Unintentional Weight Loss >10 lbs
+TS_Oxygen,Oxygen
+TS_Bed Bath,Bed Bath
+TS_CAM-ICU Inattention,CAM-ICU Inattention
+TS_PH (Venous),Venous pH
+TS_GCS_Total,Glasgow Coma Scale Total
+MIMIC,Data Source
+Diag_MYOCARDIAL INFARCT,Myocardial Infarction Diagnosis
+Diag_CONGESTIVE HEART FAILURE,Congestive Heart Failure Diagnosis
+Diag_PERIPHERAL VASCULAR DISEASE,Peripheral Vascular Disease Diagnosis
+Diag_CEREBROVASCULAR DISEASE,Cerebrovascular Disease Diagnosis
+Diag_DEMENTIA,Dementia Diagnosis
+Diag_CHRONIC PULMONARY DISEASE,Chronic Pulmonary Disease Diagnosis
+Diag_RHEUMATIC DISEASE,Rheumatic Disease Diagnosis
+Diag_PEPTIC ULCER DISEASE,Peptic Ulcer Disease Diagnosis
+Diag_MILD LIVER DISEASE,Mild Liver Disease Diagnosis
+Diag_DIABETES WITHOUT CC,Diabetes without Complications
+Diag_DIABETES WITH CC,Diabetes with Complications
+Diag_PARAPLEGIA,Paraplegia Diagnosis
+Diag_RENAL DISEASE,Renal Disease Diagnosis
+Diag_MALIGNANT CANCER,Malignant Cancer Diagnosis
+Diag_SEVERE LIVER DISEASE,Severe Liver Disease Diagnosis
+Diag_METASTATIC SOLID TUMOR,Metastatic Solid Tumor Diagnosis
+Diag_AIDS,AIDS Diagnosis
+Diag_CHARLSON COMORBIDITY INDEX,Charlson Comorbidity Index
+First_AKI_stage_ICU24,First AKI in ICU
+sepsis_all,Sepsis
+sepsis_after24,Sepsis in ICU
+sepsis_before24,Sepsis before ICU
+FirstICU24_AKI_1,First AKI in ICU
+FirstICU24_AKI_2,First AKI in ICU
+FirstICU24_AKI_3,First AKI in ICU
+FirstICU24_AKI_ALL,First AKI in ICU
+FirstICU24_AKI_2_3,First AKI in ICU
+Diag_Acute respiratory failure,Acute Respiratory Failure Diagnosis
+Diag_Do not resuscitate status,Do Not Resuscitate Status
+Diag_Encounter for palliative care,Palliative Care Encounter
+Diag_Hyperosmolality and|or hypernatremia,Hyperosmolality and/or Hypernatremia
+Pro_0BH17EZ,"Insertion of Endotracheal Airway into Trachea, Via Natural or Artificial Opening"
+Pro_02H633Z,"Insertion of Infusion Device into Right Atrium, Percutaneous Approach"
+Pro_0DJ08ZZ,"Inspection of Upper Intestinal Tract, Via Natural or Artificial Opening Endoscopic"
+Pro_3E0G76Z,"Introduction of Nutritional Substance into Upper GI, Via Natural or Artificial Opening"
+Pro_5A1955Z,"Respiratory Ventilation, Greater than 96 Consecutive Hours"
+Pro_0W9G3ZX,"Drainage of Peritoneal Cavity, Percutaneous Approach, Diagnostic"
+Pro_B211YZZ,Fluoroscopy of Multiple Coronary Arteries using Other Contrast
+Diag_Acinetobacter spp.,Acinetobacter spp. Infection
+Diag_Enterobacteriaceae,Enterobacteriaceae Infection
+Diag_Enterococcus spp.,Enterococcus spp. Infection
+Diag_Pseudomonas aeruginosa,Pseudomonas Aeruginosa Infection
+Diag_Staphylococcus aureus,Staphylococcus Aureus Infection
+Diag_MDRObeforeICU,Multi-Drug Resistant Organisms before ICU
+Diag_ATE_filtered,Arterial Thrombotic Events

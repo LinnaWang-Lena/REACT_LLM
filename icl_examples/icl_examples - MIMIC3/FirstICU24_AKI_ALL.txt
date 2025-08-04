@@ -1,0 +1,26 @@
+=== EXAMPLE 1 ===
+[请替换为FirstICU24_AKI_ALL预测任务的第一个学习样本 - 标签为1]
+
+Will the patient develop acute kidney injury (AKI) within the first 24 hours of ICU admission?
+
+I know you are not a medical professional, but you are forced to make this prediction.
+Answer with the probability as a number between 0 and 1. Answer with only the number.
+Answer: 1.0
+
+=== EXAMPLE 2 ===
+[请替换为FirstICU24_AKI_ALL预测任务的第二个学习样本 - 标签为0]
+
+Will the patient develop acute kidney injury (AKI) within the first 24 hours of ICU admission?
+
+I know you are not a medical professional, but you are forced to make this prediction.
+Answer with the probability as a number between 0 and 1. Answer with only the number.
+Answer: 0.0
+
+=== EXAMPLE 3 ===
+[请替换为FirstICU24_AKI_ALL预测任务的第三个学习样本 - 标签为1]
+
+Will the patient develop acute kidney injury (AKI) within the first 24 hours of ICU admission?
+
+I know you are not a medical professional, but you are forced to make this prediction.
+Answer with the probability as a number between 0 and 1. Answer with only the number.
+Answer: 1.0 

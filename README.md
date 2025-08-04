@@ -1,5 +1,4 @@
-# REACT_LLM
-# Large Language Models for ICU Patient Clinical Outcome Prediction
+# REACT_LLM: Benchmark for Evaluating LLM Integration with Causal Features in Clinical Prognostic Tasks
 
 ## Abstract
 

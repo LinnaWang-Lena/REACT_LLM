@@ -242,19 +242,6 @@ The system utilizes structured feature definitions in `selected_features.txt`:
 - **Medication Features**: Pharmacological treatments
 - **Time-Series Features**: Physiological measurements and vital signs
 
-## Technical Requirements
-
-### Dependencies
-```shell
-pip install -r requirements.txt
-```
-
-### Hardware Recommendations
-- **Memory**: Minimum 8GB RAM for MIMIC datasets
-- **Storage**: 10GB available space for results and logs
-- **Network**: Stable internet connection for API calls
-
-
 ## Acknowledgments
 
 This work builds upon the MIMIC-III and MIMIC-IV critical care databases and incorporates established causal discovery algorithms. We acknowledge the contributions of the clinical informatics and machine learning communities in developing these foundational resources.

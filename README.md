@@ -13,8 +13,8 @@ We support the following datasets:
 
 We provide three common tasks for clinical prediction:
 
-| Task | Description | Clinical Significance |
-|------|-------------|----------------------|
+| Task | Description |
+|------|-------------|
 | `DIEINHOSPITAL` | In-hospital mortality prediction | 
 | `Readmission_30` | 30-day readmission prediction | 
 | `Readmission_60` | 60-day readmission prediction |

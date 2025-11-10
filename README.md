@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Large Language Models (LLMs) and causal learning each hold strong potential for clinical decision-making. However, their synergy remains poorly understood, largely due to the lack of systematic benchmarks evaluating their integration in clinical risk prediction. In real-world healthcare, identifying features with causal influence on outcomes is crucial for actionable and trustworthy predictions. While recent work highlights LLMs' emergent causal reasoning abilities, integrated benchmarks to assess their causal learning and performance in clinical risk prediction informed by causal features are lacking. To address this, we introduce REACT-LLM, a benchmark designed to evaluate whether combining LLMs with causal features can enhance clinical prognostic performance and potentially outperform traditional machine learning (ML) methods. Unlike existing LLM-clinical benchmarks that often focus on a limited set of outcomes, REACT-LLM evaluates 7 clinical outcomes across 2 real-world datasets, comparing 15 prominent LLMs, 6 traditional ML models, and 3 causal discovery (CD) algorithms. Our findings indicate that while LLMs perform reasonably in clinical prognostics, they have yet to surpass traditional machine learning models. Integrating CD features into LLMs showed limited performance gains in clinical risk prediction, primarily due to the strict assumptions of current CD methods, which often yield sparse features. However, CD remains valuable for principled feature identification, and LLMs offer rich domain knowledge to enhance relevance and selection. A promising direction involves using LLMs to guide or refine CD outputs for more robust, interpretable models. Additionally, in-context learning (ICL) improves LLM prediction when prompts are task- and model-specific. Input format is also critical: proprietary models favor RCF, open-source models work better with JSON, and smaller models benefit from NS. These findings highlight the need to align prompting and formatting with model architecture and pretraining.
+Large Language Models (LLMs) and causal learning each hold strong potential for clinical decision making (CDM). However, their synergy remains poorly understood, largely due to the lack of systematic benchmarks evaluating their integration in clinical risk prediction. In real-world healthcare, identifying features with causal influence on outcomes is crucial for actionable and trustworthy predictions. While recent work highlights LLMs’ emerging causal reasoning abilities, there lacks comprehensive benchmarks to assess their causal learning and performance informed by causal features in clinical risk prediction. To address this, we introduce REACT-LLM, a benchmark designed to evaluate whether combining LLMs with causal features can enhance clinical prognostic performance and potentially outperform traditional machine learning (ML) methods. Unlike existing LLM-clinical benchmarks that often focus on a limited set of outcomes, REACT-LLM evaluates 7 clinical outcomes across 2 real-world datasets, comparing 15 prominent LLMs, 6 traditional ML models, and 3 causal discovery (CD) algorithms. Our findings indicate that while LLMs perform reasonably in clinical prognostics, they have not yet outperformed traditional ML models. Integrating causal features derived from CD algorithms into LLMs offers limited performance gains, primarily due to the strict assumptions of many CD methods, which are often violated in complex clinical data. While the direct integration yields limited improvement, our benchmark reveals a more promising synergy: LLMs serve effectively as knowledge-rich collaborators for identifying and optimizing causal features. Additionally, in-context learning improves LLM predictions when prompts are tailored to the task and model. Different LLMs show varying sensitivity to structured data encoding formats, for example, open-source models perform better with JSON, while smaller models benefit from narrative serialization. These findings highlight the need to match prompts and data formats to model architecture and pretraining.
 
 ![REACT-LLM Framework](framework.png)
 
@@ -17,7 +17,6 @@ We provide three common tasks for clinical prediction:
 |------|-------------|
 | `DIEINHOSPITAL` | In-hospital mortality prediction | 
 | `Readmission_30` | 30-day readmission prediction | 
-| `Readmission_60` | 60-day readmission prediction |
 | `Multiple_ICUs` | Multiple ICU admissions |
 | `sepsis_all` | Sepsis development prediction |
 | `FirstICU24_AKI_ALL` | Acute kidney injury within 24h |
@@ -27,12 +26,7 @@ We provide three common tasks for clinical prediction:
 
 ## Environment Setup
 
-Clone the repository:
-
-```shell
-git clone https://anonymous.4open.science/r/REACT_LLM-5DD1
-cd REACT_LLM/
-```
+Clone the repository.
 
 Download the environment:
 

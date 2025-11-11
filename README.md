@@ -98,7 +98,7 @@ jupyter nbconvert --execute scripts/LLM_MIMIC_Data_preprocess/ML_Models.ipynb
 
 ### Output Specification
 The preprocessing pipeline generates datasets with:
-- **262 predictive features**: 4 basic + 60+ diagnostic + 27 procedural + 55 medication + 100+ time-series features
+- **Predictive features**: 4 basic + 65 diagnostic + 27 procedural + 55 medication + 115 time-series features
 - **7 clinical outcome labels**: DIEINHOSPITAL, Readmission_30, Multiple_ICUs, sepsis_all, FirstICU24_AKI_ALL, LOS_Hospital, ICU_within_12hr_of_admit
 - **Quality filters**: Adults (≥18 years), first ICU stays, LOS ≥1 day
 
